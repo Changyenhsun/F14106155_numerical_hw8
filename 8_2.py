@@ -35,6 +35,6 @@ sse, _ = integrate.quad(error_function, -1, 1)
 
 
 print()
-print(f"P2(x) = {coeffs[0]:.5f} + {coeffs[1]:.5f}x + ({coeffs[2]:.5f})x^2")
+print(f"P2(x) ≈ {coeffs[0]:.5f} + {coeffs[1]:.5f}x + ({coeffs[2]:.5f})x^2")
 print(f"error = {sse:.5f}")
 print()
